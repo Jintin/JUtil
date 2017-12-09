@@ -1,0 +1,20 @@
+<resources>
+
+	<!-- Dialog -->
+	<string name="dialog_title">Mensaje</string>
+
+	<!-- Menu -->
+	<string name="menu_settings">Configuración</string>
+	<string name="menu_share">Compartir</string>
+	<string name="menu_rate">Valorar aplicación</string>
+	<string name="menu_pro">Actualizar</string>
+
+	<!-- Setting -->
+	<string name="setting_about">Acerca de</string>
+	<string name="setting_team">Equipo</string>
+	<string name="setting_version">Versión</string>
+
+	<!-- List -->
+	<string name="list_no_data">No hay datos.</string>
+
+</resources>

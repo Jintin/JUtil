@@ -1,0 +1,23 @@
+<resources>
+	<!-- Global setting -->
+	<string name="global_request_fail">サーバーに接続できません!</string>
+	<string name="global_network_down">異常な接続！ネットワークの状態を確認し、再試行してください！</string>
+
+	<!-- Dialog -->
+	<string name="dialog_title">Message</string>
+
+	<!-- Menu -->
+	<string name="menu_settings">設定</string>
+	<string name="menu_share">シェア</string>
+	<string name="menu_rate">このアプリを評価・レビューする</string>
+	<string name="menu_pro">アップグレード</string>
+
+	<!-- Setting -->
+	<string name="setting_about">このアプリについて</string>
+	<string name="setting_team">Team</string>
+	<string name="setting_version">バージョン情報</string>
+
+	<!-- List -->
+	<string name="list_no_data">検索したデータは有りません。</string>
+
+</resources>

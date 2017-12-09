@@ -1,0 +1,26 @@
+<resources>
+
+	<!-- Global setting -->
+	<string name="global_request_fail">Keine Netzwerkverbindung!</string>
+	<string name="global_network_down">Netzwerkfehler! Bitte überprüfe deine Internet-Verbindung und
+		versuch es erneut!
+	</string>
+
+	<!-- Dialog -->
+	<string name="dialog_title">Message</string>
+
+	<!-- menu -->
+	<string name="menu_settings">Einstellungen</string>
+	<string name="menu_share">Teilen</string>
+	<string name="menu_rate">Bewerte diese App</string>
+	<string name="menu_pro">Hol dir die Vollversion!</string>
+
+	<!-- Setting -->
+	<string name="setting_about">About</string>
+	<string name="setting_team">Team</string>
+	<string name="setting_version">Version</string>
+
+	<!-- List -->
+	<string name="list_no_data">There\'s no Data here.</string>
+
+</resources>

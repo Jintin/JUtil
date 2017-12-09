@@ -1,0 +1,23 @@
+<resources>
+	<!-- Global setting -->
+	<string name="global_request_fail">에러!</string>
+	<string name="global_network_down">네트워크 연결에 문제가 발생하였습니다. 데이터 또는 무선인터넷의 연결을 확인해주십시오!</string>
+
+	<!-- Dialog -->
+	<string name="dialog_title">메세지</string>
+
+	<!-- Menu -->
+	<string name="menu_settings">설정</string>
+	<string name="menu_share">공유</string>
+	<string name="menu_rate">해당 어플리케이션에 점수주기</string>
+	<string name="menu_pro">최신 업데이트</string>
+
+	<!-- Setting -->
+	<string name="setting_about">프로그램 정보</string>
+	<string name="setting_team">팀</string>
+	<string name="setting_version">버젼</string>
+
+	<!-- List -->
+	<string name="list_no_data">데이터가 없습니다.</string>
+
+</resources>

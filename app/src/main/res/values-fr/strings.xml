@@ -1,0 +1,26 @@
+<resources>
+
+	<!-- Global setting -->
+	<string name="global_request_fail">La requête a échoué !</string>
+	<string name="global_network_down">Connexion en erreur. Merci de la vérifier puis de réessayer
+		!
+	</string>
+
+	<!-- Dialog -->
+	<string name="dialog_title">Message</string>
+
+	<!-- Menu -->
+	<string name="menu_settings">Paramètres</string>
+	<string name="menu_share">Partager</string>
+	<string name="menu_rate">Noter cette application</string>
+	<string name="menu_pro">Version Pro</string>
+
+	<!-- Setting -->
+	<string name="setting_about">A propos de</string>
+	<string name="setting_team">Team</string>
+	<string name="setting_version">Version</string>
+
+	<!-- List -->
+	<string name="list_no_data">Il n\'y a pas de données ici.</string>
+
+</resources>

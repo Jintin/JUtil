@@ -1,0 +1,8 @@
+<resources>
+
+	<declare-styleable name="spinner_preference">
+		<attr name="android:entries"/>
+		<attr name="android:defaultValue"/>
+	</declare-styleable>
+
+</resources>

@@ -1,0 +1,23 @@
+<resources>
+	<!-- Global setting -->
+	<string name="global_request_fail">无法连接伺服器!</string>
+	<string name="global_network_down">连接异常! 请确认网络状态后再试一次!</string>
+
+	<!-- Dialog -->
+	<string name="dialog_title">讯息</string>
+
+	<!-- Menu -->
+	<string name="menu_settings">设定</string>
+	<string name="menu_share">分享</string>
+	<string name="menu_rate">评分</string>
+	<string name="menu_pro">升級</string>
+
+	<!-- Setting -->
+	<string name="setting_about">关于</string>
+	<string name="setting_team">团队</string>
+	<string name="setting_version">版本</string>
+
+	<!-- List -->
+	<string name="list_no_data">没有资料</string>
+
+</resources>

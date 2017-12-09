@@ -1,0 +1,11 @@
+<resources>
+
+    <dimen name="text_size">18sp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">8dp</dimen>
+    <dimen name="line_height">72dip</dimen>
+    <dimen name="line_height_small">60dip</dimen>
+
+    <integer name="num_col">1</integer>
+
+</resources>

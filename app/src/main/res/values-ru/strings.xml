@@ -1,0 +1,11 @@
+<resources>
+	<string name="dialog_title">Сообщение</string>
+	<string name="menu_settings">Установки</string>
+	<string name="menu_share">Поделиться</string>
+	<string name="menu_rate">Отзыв</string>
+	<string name="menu_pro">Pro…</string>
+	<string name="setting_about">О ПРОГРАММЕ</string>
+	<string name="setting_team">Благодарности</string>
+	<string name="setting_version">Версия</string>
+	<string name="list_no_data">Здесь нет никаких данных.</string>
+</resources>

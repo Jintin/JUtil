@@ -1,0 +1,8 @@
+<resources translatable="false">
+
+    <!-- Preference Key -->
+    <string name="key_team" translatable="false">Team</string>
+    <string name="key_version" translatable="false">Version</string>
+    <string name="key_facebook" translatable="false">Facebook</string>
+
+</resources>

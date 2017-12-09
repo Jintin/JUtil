@@ -1,0 +1,8 @@
+<resources>
+
+    <!--  -->
+    <color name="gray">#808080</color>
+    <color name="divider">#d0d0d0</color>
+
+    <color name="app_background">#FFE0E0E0</color>
+</resources>
