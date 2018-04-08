@@ -40,6 +40,7 @@ public class JPrefs {
         writeValue(context, context.getString(resId), value);
     }
 
+    @SuppressWarnings("unchecked")
     protected static void writeValue(Context context, String tag, Object value) {
         SharedPreferences settings = PreferenceManager.getDefaultSharedPreferences(context);
         SharedPreferences.Editor editor = settings.edit();
