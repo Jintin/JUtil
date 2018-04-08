@@ -6,6 +6,9 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.preference.Preference;
 import android.preference.PreferenceFragment;
+import android.support.annotation.Nullable;
+import android.view.View;
+import android.widget.ListView;
 
 import com.jintin.jutil.R;
 import com.jintin.jutil.view.JDialog;
@@ -49,6 +52,19 @@ public class JPreferenceFragment extends PreferenceFragment {
         }
         addPreferencesFromResource(layoutId);
         setPreference();
+    }
+
+    @Override
+    public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
+        super.onViewCreated(view, savedInstanceState);
+        ListView listView = view.findViewById(android.R.id.list);
+        if (listView != null) {
+            listView.setVerticalScrollBarEnabled(false);
+            int paddingHorizontal = (int) getResources().getDimension(R.dimen.activity_horizontal_margin);
+            int paddingVertical = (int) getResources().getDimension(R.dimen.activity_vertical_margin);
+            listView.setPadding(paddingHorizontal, paddingVertical, paddingHorizontal, paddingVertical);
+            listView.setClipToPadding(false);
+        }
     }
 
     private void setPreference() {
