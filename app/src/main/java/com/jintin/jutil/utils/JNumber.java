@@ -1,6 +1,7 @@
 package com.jintin.jutil.utils;
 
 import android.support.annotation.Keep;
+import android.support.annotation.NonNull;
 import android.widget.TextView;
 
 /**
@@ -10,14 +11,17 @@ import android.widget.TextView;
 @Keep
 public class JNumber {
 
+    @NonNull
     public static <T extends Number> T getValue(TextView textView, T defaultValue) {
         return getValue(textView.getText(), defaultValue);
     }
 
+    @NonNull
     public static <T extends Number> T getValue(CharSequence ch, T defaultValue) {
         return getValue(ch.toString(), defaultValue);
     }
 
+    @NonNull
     @SuppressWarnings("unchecked")
     public static <T extends Number> T getValue(String string, T defaultValue) {
         if (string != null) {
