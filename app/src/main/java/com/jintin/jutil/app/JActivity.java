@@ -1,8 +1,8 @@
 package com.jintin.jutil.app;
 
-import android.app.ActionBar;
 import android.os.Bundle;
 import android.support.annotation.Keep;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
 
@@ -18,7 +18,7 @@ public abstract class JActivity extends AppCompatActivity implements IActivity {
         super.onCreate(savedInstanceState);
 
         if (!isTaskRoot()) {
-            ActionBar actionBar = getActionBar();
+            ActionBar actionBar = getSupportActionBar();
             if (actionBar != null) {
                 actionBar.setDisplayHomeAsUpEnabled(true);
             }
