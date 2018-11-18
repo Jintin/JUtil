@@ -1,9 +1,9 @@
 package com.jintin.jutil.app;
 
 import android.app.ActionBar;
-import android.app.Activity;
 import android.os.Bundle;
 import android.support.annotation.Keep;
+import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
 
 /**
@@ -11,7 +11,7 @@ import android.view.MenuItem;
  * @version 1.0
  */
 @Keep
-public abstract class JActivity extends Activity implements IActivity {
+public abstract class JActivity extends AppCompatActivity implements IActivity {
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
