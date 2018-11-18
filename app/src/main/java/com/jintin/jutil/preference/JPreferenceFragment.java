@@ -4,9 +4,10 @@ import android.app.Activity;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
-import android.preference.Preference;
-import android.preference.PreferenceFragment;
+import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
+import android.support.v7.preference.Preference;
+import android.support.v7.preference.PreferenceFragmentCompat;
 import android.view.View;
 import android.widget.ListView;
 
@@ -17,7 +18,7 @@ import com.jintin.jutil.view.JDialog;
  * @author Jintin
  * @version 1.0
  */
-public class JPreferenceFragment extends PreferenceFragment {
+public class JPreferenceFragment extends PreferenceFragmentCompat {
     public static final String EXTRA_LAYOUT = "layout";
 
     private int layoutId;
@@ -55,7 +56,12 @@ public class JPreferenceFragment extends PreferenceFragment {
     }
 
     @Override
-    public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
+    public void onCreatePreferences(Bundle bundle, String s) {
+
+    }
+
+    @Override
+    public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
         ListView listView = view.findViewById(android.R.id.list);
         if (listView != null) {
