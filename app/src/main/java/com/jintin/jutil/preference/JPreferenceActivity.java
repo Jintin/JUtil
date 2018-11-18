@@ -17,7 +17,7 @@ public abstract class JPreferenceActivity extends JActivity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         JPreferenceFragment fragment = JPreferenceFragment.getInstance(getPreferenceView(), getFacebookId(), getFacebookUrl());
-        getFragmentManager().beginTransaction().replace(android.R.id.content, fragment).commit();
+        getSupportFragmentManager().beginTransaction().replace(android.R.id.content, fragment).commit();
     }
 
     public abstract int getPreferenceView();

@@ -1,6 +1,6 @@
 # JUtil
-
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/7ca9707bc7d34c40bb32074e4d3b7fce)](https://app.codacy.com/app/Jintin/JUtil?utm_source=github.com&utm_medium=referral&utm_content=Jintin/JUtil&utm_campaign=badger)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/7ca9707bc7d34c40bb32074e4d3b7fce)](https://app.codacy.com/app/Jintin/JUtil)
+[![](https://jitpack.io/v/jintin/JUtil.svg)](https://jitpack.io/#jintin/JUtil)
 
 Some utility functions for Android development.
 
